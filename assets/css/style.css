@@ -4,7 +4,11 @@
   margin: 0;
   list-style-type: none !important;
   text-decoration: none !important;
+<<<<<<< HEAD
   box-sizing: border-box;
+=======
+  box-sizing: border-box !important;
+>>>>>>> 9d6c207ad4fee794d141a5eb99a1644e38183f4a
 }
 .ff_Jakarta {
   font-family: "Plus Jakarta Sans", sans-serif;
