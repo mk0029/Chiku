@@ -20,11 +20,12 @@ body {
   font-weight: 600;
 }
 .btn-blue {
-  background: var(--prime-shades-3, #2568b2);
+  background: var(--clr-sky-blue);
   backdrop-filter: blur(96.5px);
   border: 1px solid transparent;
   color: var(--clr-white);
-  transition: 0.4s ease-in-out;
+  transition: 0.3s ease-in-out;
+  gap: 10px;
 }
 .btn-blue:hover {
   color: var(--clr-sky-blue);
@@ -51,5 +52,20 @@ body {
   max-width: 100%;
   background: transparent;
   color: var(--clr-off-white);
+  opacity: 0.5;
 }
 /* Subscribe To Our Newsletter SEC  ENDS */
+
+/* FOOTER STARTS */
+.footer_links_common {
+  opacity: 1 !important;
+}
+.social-sites-logo:hover {
+  transform: translateY(-13%);
+}
+/* FOOTER ENDS */
+@media (min-width: 992.98px) {
+  .footer-para {
+    max-width: 395px;
+  }
+}
