@@ -2,8 +2,8 @@
 * {
   padding: 0;
   margin: 0;
-  list-style-type: none;
-  text-decoration: none;
+  list-style-type: none !important;
+  text-decoration: none !important;
   box-sizing: border-box;
 }
 .ff_Jakarta {
@@ -171,6 +171,16 @@ nav {
   padding: 20px 32px;
   color: rgba(249, 249, 249, 1);
   text-align: center;
+  font-size: var(--fs-sm);
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  line-height: 140.188%;
+  letter-spacing: 2.24px;
+  text-transform: uppercase;
+}
+.btn_header:hover {
+  color: var(--clr-sky-blue);
+  background: var(--clr-white);
 }
 
 @media (min-width: 1200px) {
