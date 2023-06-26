@@ -1,3 +1,55 @@
+@import url("/assets/css/style.css");
 body {
   background-color: black;
 }
+.clr-orange {
+  color: var(--clr-orange);
+}
+.opacity-06 {
+  opacity: 0.6;
+}
+/* OUR TEAM SEC STARTS */
+.our-team-cards {
+  color: var(--clr-white);
+  transition: 0.3s ease-in-out;
+}
+.our-team-cards:hover {
+  color: var(--clr-orange);
+}
+.fw-semibold {
+  font-weight: 600;
+}
+.btn-blue {
+  background: var(--prime-shades-3, #2568b2);
+  backdrop-filter: blur(96.5px);
+  border: 1px solid transparent;
+  color: var(--clr-white);
+  transition: 0.4s ease-in-out;
+}
+.btn-blue:hover {
+  color: var(--clr-sky-blue);
+  background: var(--clr-white);
+}
+/* OUR TEAMS SEC ENDS */
+
+/* Subscribe To Our Newsletter SEC STARTS */
+.sec-subscribe-newsletter-container {
+  max-width: 1038px;
+  padding: 0 12px;
+}
+.bg-dim-black {
+  background: var(--clr-dim-black);
+}
+.sec-subscribe-newsletter-para {
+  max-width: 748px;
+}
+.sec-subscribe-newsletter-input {
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding-left: 32px;
+  width: 399px;
+  max-width: 100%;
+  background: transparent;
+  color: var(--clr-off-white);
+}
+/* Subscribe To Our Newsletter SEC  ENDS */
