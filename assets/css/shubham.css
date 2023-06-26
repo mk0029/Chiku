@@ -63,6 +63,10 @@ body {
 .social-sites-logo:hover {
   transform: translateY(-13%);
 }
+.hr-line {
+  background: rgba(255, 255, 255, 0.2);
+  height: 1px;
+}
 /* FOOTER ENDS */
 @media (min-width: 992.98px) {
   .footer-para {
