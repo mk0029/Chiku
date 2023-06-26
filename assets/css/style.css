@@ -6,6 +6,9 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+.ff_Jakarta {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
 :root {
   --fs-sm: 14px;
   --fs-md: 16px;
