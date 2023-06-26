@@ -140,9 +140,19 @@ nav {
 }
 .header_main_text_img1 {
   object-fit: contain;
+  width: 78px;
+}
+.header_main_text_img2 {
+  object-fit: contain;
+
+  width: 186.994px;
+}
+.header_main_text_img3 {
+  object-fit: contain;
+  width: 116.18px;
+  margin-top: auto;
 }
 .text_header_grident {
-  font-weight: 800;
   background: radial-gradient(
     100% 100% at 50% 0%,
     rgba(0, 105, 255, 0.28),
@@ -154,6 +164,7 @@ nav {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px var(--clr-orange);
 }
+
 .btn_header {
   background: var(--prime-shades-3, #2568b2);
   backdrop-filter: blur(96.5px);
